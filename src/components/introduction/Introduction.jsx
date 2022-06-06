@@ -1,4 +1,4 @@
-import "../introduction/Intro.css"
+import "./Intro.css"
 import Kelly from "../../images/dorrells.png"
 
 
@@ -37,6 +37,9 @@ const Introduction = () => {
           </div>
         </div>
         <div className='i-right'>
+          <div className="i-bg">
+            
+          </div>
           <img src={Kelly} alt='' className='i-img' />
         </div>
       </div>
